@@ -7,8 +7,34 @@
   <title>Sống Khỏe Không Lo</title>
   <style>
     body {font-family: Arial, sans-serif;margin: 0;background: #fdfdfd;color: #333;}
-    header {background: linear-gradient(90deg, #2ecc71, #f1c40f);color: white;padding: 1rem;text-align: center;}
-    header h1 {margin: 0;font-size: 2rem;}
+    header 
+    {
+      background: linear-gradient(90deg, #2ecc71, #f1c40f);
+      color: white;
+      padding: 1rem;
+    }
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* căn giữa toàn bộ */
+  gap: 15px; /* khoảng cách giữa logo và chữ */
+  text-align: left; /* chữ bên phải logo căn trái */
+}
+
+header img {
+  max-width: 80px; /* chỉnh kích thước logo */
+}
+
+.header-text h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.header-text p {
+  margin: 5px 0 0;
+  font-size: 1rem;
+}
     nav {display: flex;justify-content: center;gap: 1.5rem;background: #27ae60;padding: 0.5rem;}
     nav a {color: white;text-decoration: none;font-weight: bold;}
     nav a:hover {text-decoration: underline;}
@@ -20,9 +46,13 @@
 </head>
 <body>
   <header>
+    <div class="header-container">
     <img src="Picture1.png" alt="Logo Sống Khỏe Không Lo">
+      <div class="header-text">
     <h1>Sống Khỏe Không Lo</h1>
     <p>Chia sẻ bảo hiểm & sức khỏe – Chọn đúng, sống vui</p>
+        </div>
+      </div>
   </header>
 
   <nav>
