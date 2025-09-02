@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Sống Khỏe Không Lo - Giới thiệu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <img src="Presentation.png" alt="Logo Sống Khỏe Không Lo">
+      <div class="header-text">
+        <h1>Sống Khỏe Không Lo</h1>
+        <p>Chia sẻ bảo hiểm & sức khỏe - Chọn đúng, sống vui</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="content">
+    <h2>🎉 Chào mừng bạn đến với Sống Khỏe Không Lo!</h2>
+    <p>Đây là blog mình lập ra để chia sẻ kiến thức về <b>bảo hiểm sức khỏe</b> một cách dễ hiểu, vui vẻ, và gần gũi nhất có thể.</p>
+    <p>Ở đây bạn sẽ tìm thấy:</p>
+    <ul>
+      <li>✅ Kiến thức cơ bản về bảo hiểm</li>
+      <li>✅ So sánh các gói bảo hiểm trên thị trường</li>
+      <li>✅ Hướng dẫn cách nộp hồ sơ bồi thường</li>
+      <li>✅ Những mẫu chuyện liên quan tới bảo hiểm</li>
+    </ul>
+    <p>Mục tiêu của mình là giúp bạn <b>chọn đúng</b> bảo hiểm, <b>sử dụng đúng</b> và từ đó <b>sống khỏe không lo</b>. 💪</p>
+
+    <hr>
+    <p><i>👉 Đừng bỏ lỡ bài mới, để lại thông tin, mình gửi cho bạn ngay khi có update nhé!</i></p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Sống Khỏe Không Lo</p>
+  </footer>
+</body>
+</html>
